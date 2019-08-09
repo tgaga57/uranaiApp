@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B1F77B6722FD01F00057130C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F77B6622FD01F00057130C /* AppDelegate.swift */; };
+		B1F77B6922FD01F00057130C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F77B6822FD01F00057130C /* ViewController.swift */; };
+		B1F77B6C22FD01F00057130C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1F77B6A22FD01F00057130C /* Main.storyboard */; };
+		B1F77B6E22FD01F10057130C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1F77B6D22FD01F10057130C /* Assets.xcassets */; };
+		B1F77B7122FD01F10057130C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1F77B6F22FD01F10057130C /* LaunchScreen.storyboard */; };
+		B1F77B7C22FD01F10057130C /* unaraiAPPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F77B7B22FD01F10057130C /* unaraiAPPTests.swift */; };
+		B1F77B8722FD01F10057130C /* unaraiAPPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F77B8622FD01F10057130C /* unaraiAPPUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B1F77B7822FD01F10057130C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1F77B5B22FD01F00057130C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1F77B6222FD01F00057130C;
+			remoteInfo = unaraiAPP;
+		};
+		B1F77B8322FD01F10057130C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1F77B5B22FD01F00057130C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1F77B6222FD01F00057130C;
+			remoteInfo = unaraiAPP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B1F77B6322FD01F00057130C /* unaraiAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = unaraiAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1F77B6622FD01F00057130C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B1F77B6822FD01F00057130C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B1F77B6B22FD01F00057130C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B1F77B6D22FD01F10057130C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B1F77B7022FD01F10057130C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B1F77B7222FD01F10057130C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1F77B7722FD01F10057130C /* unaraiAPPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = unaraiAPPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1F77B7B22FD01F10057130C /* unaraiAPPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = unaraiAPPTests.swift; sourceTree = "<group>"; };
+		B1F77B7D22FD01F10057130C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1F77B8222FD01F10057130C /* unaraiAPPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = unaraiAPPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1F77B8622FD01F10057130C /* unaraiAPPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = unaraiAPPUITests.swift; sourceTree = "<group>"; };
+		B1F77B8822FD01F10057130C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B1F77B6022FD01F00057130C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1F77B7422FD01F10057130C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1F77B7F22FD01F10057130C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B1F77B5A22FD01F00057130C = {
+			isa = PBXGroup;
+			children = (
+				B1F77B6522FD01F00057130C /* unaraiAPP */,
+				B1F77B7A22FD01F10057130C /* unaraiAPPTests */,
+				B1F77B8522FD01F10057130C /* unaraiAPPUITests */,
+				B1F77B6422FD01F00057130C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B1F77B6422FD01F00057130C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1F77B6322FD01F00057130C /* unaraiAPP.app */,
+				B1F77B7722FD01F10057130C /* unaraiAPPTests.xctest */,
+				B1F77B8222FD01F10057130C /* unaraiAPPUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B1F77B6522FD01F00057130C /* unaraiAPP */ = {
+			isa = PBXGroup;
+			children = (
+				B1F77B6622FD01F00057130C /* AppDelegate.swift */,
+				B1F77B6822FD01F00057130C /* ViewController.swift */,
+				B1F77B6A22FD01F00057130C /* Main.storyboard */,
+				B1F77B6D22FD01F10057130C /* Assets.xcassets */,
+				B1F77B6F22FD01F10057130C /* LaunchScreen.storyboard */,
+				B1F77B7222FD01F10057130C /* Info.plist */,
+			);
+			path = unaraiAPP;
+			sourceTree = "<group>";
+		};
+		B1F77B7A22FD01F10057130C /* unaraiAPPTests */ = {
+			isa = PBXGroup;
+			children = (
+				B1F77B7B22FD01F10057130C /* unaraiAPPTests.swift */,
+				B1F77B7D22FD01F10057130C /* Info.plist */,
+			);
+			path = unaraiAPPTests;
+			sourceTree = "<group>";
+		};
+		B1F77B8522FD01F10057130C /* unaraiAPPUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B1F77B8622FD01F10057130C /* unaraiAPPUITests.swift */,
+				B1F77B8822FD01F10057130C /* Info.plist */,
+			);
+			path = unaraiAPPUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B1F77B6222FD01F00057130C /* unaraiAPP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1F77B8B22FD01F10057130C /* Build configuration list for PBXNativeTarget "unaraiAPP" */;
+			buildPhases = (
+				B1F77B5F22FD01F00057130C /* Sources */,
+				B1F77B6022FD01F00057130C /* Frameworks */,
+				B1F77B6122FD01F00057130C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = unaraiAPP;
+			productName = unaraiAPP;
+			productReference = B1F77B6322FD01F00057130C /* unaraiAPP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B1F77B7622FD01F10057130C /* unaraiAPPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1F77B8E22FD01F10057130C /* Build configuration list for PBXNativeTarget "unaraiAPPTests" */;
+			buildPhases = (
+				B1F77B7322FD01F10057130C /* Sources */,
+				B1F77B7422FD01F10057130C /* Frameworks */,
+				B1F77B7522FD01F10057130C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1F77B7922FD01F10057130C /* PBXTargetDependency */,
+			);
+			name = unaraiAPPTests;
+			productName = unaraiAPPTests;
+			productReference = B1F77B7722FD01F10057130C /* unaraiAPPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B1F77B8122FD01F10057130C /* unaraiAPPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1F77B9122FD01F10057130C /* Build configuration list for PBXNativeTarget "unaraiAPPUITests" */;
+			buildPhases = (
+				B1F77B7E22FD01F10057130C /* Sources */,
+				B1F77B7F22FD01F10057130C /* Frameworks */,
+				B1F77B8022FD01F10057130C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1F77B8422FD01F10057130C /* PBXTargetDependency */,
+			);
+			name = unaraiAPPUITests;
+			productName = unaraiAPPUITests;
+			productReference = B1F77B8222FD01F10057130C /* unaraiAPPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B1F77B5B22FD01F00057130C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = Taigashiga;
+				TargetAttributes = {
+					B1F77B6222FD01F00057130C = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					B1F77B7622FD01F10057130C = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = B1F77B6222FD01F00057130C;
+					};
+					B1F77B8122FD01F10057130C = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = B1F77B6222FD01F00057130C;
+					};
+				};
+			};
+			buildConfigurationList = B1F77B5E22FD01F00057130C /* Build configuration list for PBXProject "unaraiAPP" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B1F77B5A22FD01F00057130C;
+			productRefGroup = B1F77B6422FD01F00057130C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B1F77B6222FD01F00057130C /* unaraiAPP */,
+				B1F77B7622FD01F10057130C /* unaraiAPPTests */,
+				B1F77B8122FD01F10057130C /* unaraiAPPUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B1F77B6122FD01F00057130C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1F77B7122FD01F10057130C /* LaunchScreen.storyboard in Resources */,
+				B1F77B6E22FD01F10057130C /* Assets.xcassets in Resources */,
+				B1F77B6C22FD01F00057130C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1F77B7522FD01F10057130C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1F77B8022FD01F10057130C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B1F77B5F22FD01F00057130C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1F77B6922FD01F00057130C /* ViewController.swift in Sources */,
+				B1F77B6722FD01F00057130C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1F77B7322FD01F10057130C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1F77B7C22FD01F10057130C /* unaraiAPPTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1F77B7E22FD01F10057130C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1F77B8722FD01F10057130C /* unaraiAPPUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B1F77B7922FD01F10057130C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B1F77B6222FD01F00057130C /* unaraiAPP */;
+			targetProxy = B1F77B7822FD01F10057130C /* PBXContainerItemProxy */;
+		};
+		B1F77B8422FD01F10057130C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B1F77B6222FD01F00057130C /* unaraiAPP */;
+			targetProxy = B1F77B8322FD01F10057130C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B1F77B6A22FD01F00057130C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1F77B6B22FD01F00057130C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B1F77B6F22FD01F10057130C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1F77B7022FD01F10057130C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B1F77B8922FD01F10057130C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B1F77B8A22FD01F10057130C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B1F77B8C22FD01F10057130C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = unaraiAPP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = project.unaraiAPP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B1F77B8D22FD01F10057130C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = unaraiAPP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = project.unaraiAPP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B1F77B8F22FD01F10057130C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = unaraiAPPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = project.unaraiAPPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/unaraiAPP.app/unaraiAPP";
+			};
+			name = Debug;
+		};
+		B1F77B9022FD01F10057130C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = unaraiAPPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = project.unaraiAPPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/unaraiAPP.app/unaraiAPP";
+			};
+			name = Release;
+		};
+		B1F77B9222FD01F10057130C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = unaraiAPPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = project.unaraiAPPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = unaraiAPP;
+			};
+			name = Debug;
+		};
+		B1F77B9322FD01F10057130C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = unaraiAPPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = project.unaraiAPPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = unaraiAPP;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B1F77B5E22FD01F00057130C /* Build configuration list for PBXProject "unaraiAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1F77B8922FD01F10057130C /* Debug */,
+				B1F77B8A22FD01F10057130C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1F77B8B22FD01F10057130C /* Build configuration list for PBXNativeTarget "unaraiAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1F77B8C22FD01F10057130C /* Debug */,
+				B1F77B8D22FD01F10057130C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1F77B8E22FD01F10057130C /* Build configuration list for PBXNativeTarget "unaraiAPPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1F77B8F22FD01F10057130C /* Debug */,
+				B1F77B9022FD01F10057130C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1F77B9122FD01F10057130C /* Build configuration list for PBXNativeTarget "unaraiAPPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1F77B9222FD01F10057130C /* Debug */,
+				B1F77B9322FD01F10057130C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B1F77B5B22FD01F00057130C /* Project object */;
+}
