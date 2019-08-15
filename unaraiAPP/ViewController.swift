@@ -10,23 +10,18 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    
     // 年月日パラメーター
-    
     @IBOutlet weak var datePicker: UIDatePicker!
     
     // 血液型のセグメント
     @IBOutlet weak var bloodTypeSegment: UISegmentedControl!
     
-    
     // 好きな数字を選んでもらう
     @IBOutlet weak var choseNumber: UISlider!
     
-    
     // choseNumberで選んだ数字を表示するラベル
     @IBOutlet weak var numberExpress: UILabel!
-    
-    
+
     // 占いを表示するテキストヴュー
     @IBOutlet weak var fortuneTelling: UITextView!
     
@@ -64,10 +59,9 @@ class ViewController: UIViewController {
     let dayResult:[String] = [
         "愛されている。",
         "憎まれている。",
-        "くさがられている。",
-        "キモがられている。"
+        "いやがられている。",
+        "好かれている。"
     ]
-    
     let bloodResult:[String] = [
         "マメな性格で気配りもうまく、誰とでも合わせていける協調性がある。しかし嫌がられている。",
         "周囲との和を保とうとし、そのためまわりに細かく気を使いすぎる部分がある。しかし余計に気を使い周囲からは『なんなん？』と思われてしまう。",
@@ -75,27 +69,22 @@ class ViewController: UIViewController {
         "和気あいあいとした雰囲気を大切にする。しかし、実は一人が好き。"
         
     ]
-    
     let sliderNumberResult:[String] = [
         "慎重になりすぎて必要以上に用心深くなり、あれこれ悪いことばかり考えてしまうクセがある。",
         "倹約家で、お金をコツコツと貯めるほう。",
         "冒険をあまり好まない性格なため、リスクの高い商売や不安定な要素の多い職業は向かない。",
         "礼儀正しく従順なため、上司や先輩からのウケがいい。"
     ]
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
         fortuneTelling.isUserInteractionEnabled = false
     }
-    
-    
     // sliderが動くと反応する
     @IBAction func actionSlider(_ sender: UISlider) {
         numberExpress.text = String(Int(sender.value))
     }
-    
     
     // fortune button
     @IBAction func youtFortune(_ sender: Any) {
@@ -111,14 +100,9 @@ class ViewController: UIViewController {
         // 血液型を取得
         bloodTitle = bloodTypeSegment.selectedSegmentIndex
         
-        //
         guard var selectNum = Int(numberExpress.text!) else {
             return
         }
-        
-        
-        
-        
         // 各パラメーターを３、４で割った数で表示する内容を決定する
         year %= 4
         month %= 3
@@ -127,18 +111,13 @@ class ViewController: UIViewController {
         
         answeResult(year: year, month: month, day: day, bloodTitle: bloodTitle, selectNum: selectNum)
         
-//        selectNum = Int(numberExpress.text)
+     // selectNum = Int(numberExpress.text)
     }
-    
     // 占い結果を表示する関数
     func answeResult(year : Int, month: Int, day: Int, bloodTitle: Int, selectNum: Int) {
-        
-        
    // セグメントのインデックス情報
         fortuneTelling.text = "あなたは\(yearResult[year])\(dayResult[day]) 属性は\(monthResult[month])\(bloodResult[bloodTitle]) \(sliderNumberResult[selectNum])"
     }
-    
-    
 }
 
 
