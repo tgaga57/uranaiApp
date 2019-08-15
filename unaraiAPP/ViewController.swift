@@ -97,7 +97,6 @@ class ViewController: UIViewController {
     }
     
     
-    
     // fortune button
     @IBAction func youtFortune(_ sender: Any) {
         
@@ -112,6 +111,14 @@ class ViewController: UIViewController {
         // 血液型を取得
         bloodTitle = bloodTypeSegment.selectedSegmentIndex
         
+        //
+        guard var selectNum = Int(numberExpress.text!) else {
+            return
+        }
+        
+        
+        
+        
         // 各パラメーターを３、４で割った数で表示する内容を決定する
         year %= 4
         month %= 3
@@ -119,6 +126,8 @@ class ViewController: UIViewController {
         selectNum %= 4
         
         answeResult(year: year, month: month, day: day, bloodTitle: bloodTitle, selectNum: selectNum)
+        
+//        selectNum = Int(numberExpress.text)
     }
     
     // 占い結果を表示する関数
@@ -128,8 +137,6 @@ class ViewController: UIViewController {
    // セグメントのインデックス情報
         fortuneTelling.text = "あなたは\(yearResult[year])\(dayResult[day]) 属性は\(monthResult[month])\(bloodResult[bloodTitle]) \(sliderNumberResult[selectNum])"
     }
-    
-    
     
     
 }
